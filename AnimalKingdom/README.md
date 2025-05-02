@@ -34,4 +34,4 @@ classDiagram
     class ICanFly {
         <<interface>>
         +NumberOfWings int
-    }
+    } 
