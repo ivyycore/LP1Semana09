@@ -35,3 +35,14 @@ classDiagram
         <<interface>>
         +NumberOfWings int
     } 
+    Animal <-- Cat
+    Animal <-- Dog
+    Animal <-- Bee
+    Animal <-- Bat
+    Dog ..> IMammal
+    Cat ..> IMammal
+    Bat ..> IMammal
+    Bee ..> ICanFly
+    Bat ..> ICanFly
+    
+```
